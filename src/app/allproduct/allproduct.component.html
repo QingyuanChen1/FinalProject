@@ -1,0 +1,23 @@
+<div class="overall">
+  <ul class="itemlist">
+    <li *ngFor="let item of productservice.product; index as i" class="item1">
+      <div class="productname">
+        <h6>{{item.Name}}</h6>
+      </div>
+      <div class="productimg">
+        <img style="width:250px;height:250px" src="../../assets/{{item.Photo}}">
+        <button type="button" class="button">View</button>
+        <ul>
+          <li>{{item.Price | currency}}</li>
+        </ul>
+      </div>
+    </li>
+  </ul> 
+  
+  
+  
+  
+  
+  
+  
+</div>

@@ -1,0 +1,19 @@
+<h2 style="text-align: center;">{{productservice1.product[user.name].Name}}</h2>
+<div class="container-lg px-9" style="margin-top:50px;">
+    <div class="row">
+        <div class="col-md-12  box-shadow">
+            <div class="p-3 card border bg-light">
+                <div class="card-header text-center">
+                    <img class="img-fluid mb-4" src="../../../assets/{{productservice1.product[user.name].Photo}}">
+                    <h4 class="my-0 font-weight-normal">{{productservice1.product[user.name].Name}}</h4>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>{{productservice1.product[user.name].Description}}</li>
+                        <li> <h1 class="card-title pricing-card-title">{{productservice1.product[user.name].Price | currency}}</h1> </li>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
