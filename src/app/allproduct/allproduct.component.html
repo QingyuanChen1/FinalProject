@@ -6,7 +6,7 @@
       </div>
       <div class="productimg">
         <img style="width:250px;height:250px" src="../../assets/{{item.Photo}}">
-        <button type="button" class="button">View</button>
+        <button type="button" class="button" [routerLink]="['/interiorProduct',item.Id]">View</button>
         <ul>
           <li>{{item.Price | currency}}</li>
         </ul>
